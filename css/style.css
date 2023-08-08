@@ -1,0 +1,48 @@
+
+
+@font-face { 
+    font-family: "Generic-G50-CC-Typic-DEMO"; 
+    src: url("./fonts/Generic-G50-CC-Typic-DEMO.otf"); 
+} 
+
+
+body{
+    font-family: 'Generic-G50-CC-Typic-DEMO', sans-serif;
+}
+
+.hero{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+.hero-overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.tendencias{
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+@media (min-width: 544px){
+    .tendencias{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .tendencias_section-thumbail{
+        height: auto;
+    }
+}
+.tendencias_section-thumbail{
+    height: 456px;
+    margin: 0 auto;
+}
+
+.tendencias_section-thumbail{
+    max-width: 240px;
+    object-fit: cover;
+    }
